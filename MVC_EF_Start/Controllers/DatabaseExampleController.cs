@@ -112,7 +112,7 @@ namespace MVC_EF_Start.Controllers
                               .Where(c => c.Id == "MCOB")
                               .FirstOrDefault()
                               .Quotes
-                              .FirstOrDefault();
+                              .FirstOrDefault(); 
 
       return View();
     }
